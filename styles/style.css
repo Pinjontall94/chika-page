@@ -1,3 +1,26 @@
-p {
-  color: red;
+body {
+  font-family: 'Lobster', cursive;
+  font-size: 48px;
+  padding-left: 50px;
+  background-color: #FCD9D9;
+}
+
+/* Selectors starting with '.' will target all instances of that html class */
+.center {
+  text-align: center;
+}
+
+/* Selectors with names of html elements will match all of those elements */
+p, li, h1 {
+  color: #FFFFFF;
+  text-shadow: -2px 2px 4px #000000;
+}
+
+/* #name selectors target id="name" in all applicable elements */
+#practice {
+  color: purple;
+}
+
+img[src] {
+  border: 10px black;
 }
