@@ -17,14 +17,17 @@ p, li, h1 {
 }
 
 /* #name selectors target id="name" in all applicable elements */
+/*
 #practice {
   color: purple;
 }
+*/
 
 img[src] {
   border: 10px black;
 }
 
-b {
+/* Target all italicized text */
+i {
   color: purple;
 }
