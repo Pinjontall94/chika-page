@@ -28,6 +28,6 @@ img[src] {
 }
 
 /* Target all italicized text */
-i {
+i, a {
   color: purple;
 }
