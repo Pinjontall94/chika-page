@@ -24,3 +24,7 @@ p, li, h1 {
 img[src] {
   border: 10px black;
 }
+
+b {
+  color: purple;
+}
