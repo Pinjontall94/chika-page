@@ -1,22 +1,38 @@
+html {
+    font-size: 10px;
+    font-family: 'Lobster', serif;
+    color: black;
+    background-color: white;
+}
+
 body {
-  font-family: 'Lobster', cursive;
-  font-size: 48px;
-  padding-left: 50px;
+  width: 600px;
+  margin: 0 auto;
   background-color: #FCD9D9;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+  text-shadow: -4px 4px 6px grey;
 }
 
-/* Selectors starting with '.' will target all instances of that html class */
-.center {
-  text-align: center;
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: purple;
 }
 
-/* Selectors with names of html elements will match all of those elements */
-p, li, h1 {
-  color: #FFFFFF;
-  text-shadow: -2px 2px 4px #000000;
+img {
+    display: block;
+    margin: 0 auto;
 }
 
-/* #name selectors target id="name" in all applicable elements */
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
 #practice:hover {
   color: purple;
   -webkit-transition: all 0.2s ease-in-out;
@@ -24,14 +40,3 @@ p, li, h1 {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-
-
-/* select all img tags with a src attribute */
-img[src] {
-  border: 10px black;
-}
-
-/* Target all italicized text */
-/*
-i { color: purple; }
-*/
